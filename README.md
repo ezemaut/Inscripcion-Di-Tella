@@ -4,7 +4,7 @@
 En el .py tambien estan las instrucciones. 
 
 
-1. En consola: pip install Selenium (No se si es 100% necesario)
+1. En consola: pip install Selenium (No se si es necesario)
 
 2. Rellenar las variables USUARIO, CONTRASENA y Materias.
       * Usuario = DNI
@@ -18,7 +18,7 @@ En el .py tambien estan las instrucciones.
 No esta probado en situacion real. Si no hay cupo, no te va a dejar inscribir aunque uses el codigo. 
 
 
-El codigo esta escrito para Firefox, si prefieren otro browser hay que cambiar 1 (una) linea. Linea 39:
+El codigo esta escrito para Firefox, si prefieren otro browser hay que cambiar 1 (una) linea. Linea 40:
 
     driver = webdriver.Firefox()   
     
