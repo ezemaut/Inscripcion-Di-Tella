@@ -12,10 +12,11 @@ Materia5 = ''
 # Si queres menos de 5, llenar las que queres y no tocar el resto
 # No se peuden hacer 6 materias sin pedir permiso a SPE
 
+# CORRER en consola:
+# pip install selenium
+# no se si es necesario
 
-
-
-
+# Prueben que esten bien el usario y contra antes del horario de inscripcion.
 
 
 #############################################################################
@@ -68,3 +69,5 @@ for link in ls:
 
 # Abre pagina que dice donde SI estas inscripto
 driver.get('https://sigedu.utdt.edu/utdt/alumnos/ver_inscripcion.jsp')
+
+
